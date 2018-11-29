@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Question"
+        android:layout_width="303dp"
+        android:layout_height="124dp"
+        android:layout_marginStart="56dp"
+        android:fontFamily="@font/supermercado_one"
+        android:text="@string/question"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.093" />
+
+    <Button
+        android:id="@+id/ChoiceD"
+        android:layout_width="358dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="60dp"
+        android:text="@string/AnswerD"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/ChoiceC"
+        android:layout_width="358dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="48dp"
+        android:text="@string/AnswerC"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/ChoiceD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/ChoiceB"
+        android:layout_width="358dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="48dp"
+        android:text="@string/AnswerB"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/ChoiceC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/ChoiceA"
+        android:layout_width="358dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="48dp"
+        android:text="@string/AnswerA"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/ChoiceB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+</android.support.constraint.ConstraintLayout>

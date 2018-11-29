@@ -1,0 +1,14 @@
+What do you like to do on your free time?
+
+If you could go anywhere in the world, where would you go?
+
+What kind of super powers would you like?
+
+What kind of pet do you want?
+
+What kind of food do you like to eat?
+
++-------------------------------------------------------+
+| This is the edited template of the questions used in  |
+| the app. Please don't make any changes to this file!  |
++-------------------------------------------------------+

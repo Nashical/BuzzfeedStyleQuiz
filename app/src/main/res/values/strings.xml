@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Buzzfeed Quiz</string>
+    <string name="question">What do you like to do on your free time?</string>
+
+    <string name="AnswerA">a) Stay home</string>
+    <string name="AnswerB">b) Read</string>
+    <string name="AnswerC">c) Play video games</string>
+    <string name="AnswerD">d) Hang out with friends</string>
+
+</resources>
